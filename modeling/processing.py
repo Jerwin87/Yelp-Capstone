@@ -24,6 +24,7 @@ punctuation = ['?', '.', ':', ':', '!', '"', '(', ')', '-', '$', ',', '+', '1', 
 # function to remove these symbols
 def remove_punctuation(text):    
     cleaned_text = "".join(u for u in text if u not in punctuation)
+    cleaned_text = cleaned_text.lower()
     return cleaned_text
 
 # Language detection
