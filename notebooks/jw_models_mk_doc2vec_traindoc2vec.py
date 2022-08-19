@@ -36,7 +36,7 @@ RSEED = 42
 # import needed functions
 from modeling.processing import *
 
-# load the first 100k lines of the review file into a dataframe
+# load the review file into a dataframe
 dfr = pd.read_csv('../data/yelp_dataset/review_1819.csv')
 print('Data set imported.')
 
