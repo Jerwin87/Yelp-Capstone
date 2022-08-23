@@ -138,3 +138,8 @@ modeling/*.bin
 
 #config file has sensitive data
 .mlflow_uri
+
+.DS_Store
+.vscode/
+logs/
+notebooks/.DS_Store
