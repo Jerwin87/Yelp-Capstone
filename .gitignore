@@ -134,5 +134,7 @@ models/*.sav
 mlruns
 models/*
 
+modeling/*.bin
+
 #config file has sensitive data
 .mlflow_uri
