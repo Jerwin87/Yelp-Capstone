@@ -6,7 +6,7 @@ import numpy as np
 # doc: https://radimrehurek.com/gensim/models/word2vec.html
 from gensim.models import Word2Vec
 
-from modeling.processing import get_df
+from scripts.processing import get_df
 
 
 DATA_FN_IN = '../data/yelp_dataset/yelp_academic_dataset_business.json'
