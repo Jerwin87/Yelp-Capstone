@@ -4,26 +4,15 @@ sys.path.append("..")
 
 # importing all needed libraries
 import pandas as pd
-import numpy as np
-import matplotlib.pyplot as plt
-import seaborn as sns
-import plotly.express as px
 import nltk
 from nltk.corpus import stopwords
 # from wordcloud import WordCloud
 from sklearn.model_selection import train_test_split
-from sklearn.linear_model import LogisticRegression 
-from sklearn.feature_extraction.text import TfidfVectorizer
-from sklearn.metrics import confusion_matrix, classification_report
-from sklearn.naive_bayes import MultinomialNB
-from sklearn.svm import LinearSVC
-from sklearn.ensemble import RandomForestClassifier
 from gensim.models import Doc2Vec
 from gensim.models.doc2vec import TaggedDocument
 import multiprocessing
 from sklearn import utils
 
-import time
 from tqdm import tqdm
 
 # ignore the warnings
