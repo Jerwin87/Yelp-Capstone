@@ -2,6 +2,8 @@ import pandas as pd
 import json
 import fasttext as ft
 from pycountry import pycountry
+import nltk
+from nltk.corpus import stopwords
 
 
 # define function to reed json
@@ -18,11 +20,12 @@ def get_df(fn, limit=None):
     df = pd.DataFrame(json_lines)
     return df
 
-# define a list with all symbols to be removed
-punctuation = ['?', '.', ':', ':', '!', '"', '(', ')', '-', '$', ',', '+', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0']
+# define stopwords and symbols to be deleted
+stopwords = nltk.corpus.stopwords.words('english')
+punctuation = ['"', '(', ')', '-', '$', ',', '+', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', "'"]
 
-# function to remove these symbols
-def remove_punctuation(text):    
+#define function for textcleaning
+def clean_text(text):   
     cleaned_text = "".join(u for u in text if u not in punctuation)
     cleaned_text = cleaned_text.lower()
     return cleaned_text
