@@ -22,7 +22,7 @@ def get_df(fn, limit=None):
 
 # define stopwords and symbols to be deleted
 stopwords = nltk.corpus.stopwords.words('english')
-punctuation = ['"', '(', ')', '-', '$', ',', '+', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', "'"]
+punctuation = ['"', '(', ')', '-', '$', ',', '+', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', "'", "\n"]
 
 #define function for textcleaning
 def clean_text(text):   
