@@ -143,3 +143,5 @@ modeling/*.bin
 .vscode/
 logs/
 notebooks/.DS_Store
+saved_model/
+training/
