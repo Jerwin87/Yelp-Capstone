@@ -22,12 +22,12 @@ def get_df(fn, limit=None):
 
 # define stopwords and symbols to be deleted
 stopwords = nltk.corpus.stopwords.words('english')
-punctuation = ['"', '(', ')', '-', '$', ',', '+', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', "'", "\n"]
+punctuation = ['"', '(', ')', '-', '$', ',', '+', "'", "\n", "\r"]
 
 #define function for textcleaning
 def clean_text(text):   
     cleaned_text = "".join(u for u in text if u not in punctuation)
-    cleaned_text = cleaned_text.lower()
+    # cleaned_text = cleaned_text.lower() # This is done by the text vectorizer
     return cleaned_text
 
 # Language detection
