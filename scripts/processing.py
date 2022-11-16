@@ -5,6 +5,7 @@ from pycountry import pycountry
 import nltk
 from nltk.corpus import stopwords
 
+nltk.download('stopwords')
 
 # define function to reed json
 def get_df(fn, limit=None):
