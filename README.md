@@ -1,5 +1,7 @@
 # Data Science Bootcamp Capstone Project 'ReView. Rating your Reviews'
 
+## It is still a work-in-progress as the notebooks still have to be comment and corrected
+
 This repository represents the capstone project of Jan, Felix, Max and me (Jérémy).
 
 This project is was developed as final exercise to apply all the different techniques we learned during our data science bootcamp.
@@ -12,7 +14,7 @@ For data we used the reviews from Yelp that are freely accessible through the Ye
 
 This repo is structured by several jupyter notebooks which represent different steps of the data science life circle
 
-* In a first step we had to preproces the data
+* In a first step we had to import and preproces the data
 
 * Then we did EDA
 
