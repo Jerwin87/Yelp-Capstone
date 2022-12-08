@@ -1,6 +1,6 @@
 # Data Science Bootcamp Capstone Project 'ReView. Rating your Reviews'
 
-## It is still a work-in-progress as the notebooks still have to be comment and corrected
+## It is still a work-in-progress as the notebooks still have to be commented and corrected
 
 This repository represents the capstone project of Jan, Felix, Max and me (Jérémy).
 
