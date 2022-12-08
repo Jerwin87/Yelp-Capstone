@@ -36,7 +36,7 @@ def clean_text(text):
 def language_processing(df_lang, verbose=False, cleaned=True, accuracy=0.95):
 
     # Load pretrained model
-    fasttext_model = ft.load_model('../modeling/lid.176.bin')
+    fasttext_model = ft.load_model('../data/lid.176.bin')
 
     # Initiate empty language list
     language_list = []
